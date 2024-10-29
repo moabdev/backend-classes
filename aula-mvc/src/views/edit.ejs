@@ -1,0 +1,15 @@
+<form action="/todos/<%= todo._id %>?_method=PUT" method="POST">
+  <div class="form-group">
+    <label for="title">Editar Tarefa</label>
+    <input
+      type="text"
+      name="title"
+      class="form-control"
+      value="<%= todo.title %>"
+      required
+    />
+  </div>
+  <button type="submit" class="btn btn-primary">Atualizar</button>
+</form>
+
+<a href="/" class="btn btn-secondary mt-3">Voltar</a>
