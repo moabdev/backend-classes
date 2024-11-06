@@ -11,7 +11,7 @@ const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
 const methodOverride = require("method-override");
-const todoRoutes = require("./routes/todoRoutes");
+const todoRoutes = require("./src/routes/todoRoutes");
 
 dotenv.config();
 
